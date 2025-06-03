@@ -9,15 +9,15 @@ import {
 } from 'n8n-workflow';
 import { LinkedinScraper, events } from 'linkedin-jobs-scraper';
 
-export class LinkedinJobsScraperNode implements INodeType {
+export class LinkedinScraperNode implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'LinkedIn Jobs Scraper',
-		name: 'linkedinJobsScraper',
+		displayName: 'LinkedIn Scraper',
+		name: 'linkedinScraper',
 		group: ['transform'],
 		version: 1,
 		description: 'Search jobs on LinkedIn',
 		defaults: {
-			name: 'LinkedIn Jobs Scraper',
+			name: 'LinkedIn Scraper',
 		},
 		inputs: [NodeConnectionType.Main],
 		outputs: [NodeConnectionType.Main],

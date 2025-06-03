@@ -1,4 +1,4 @@
-# n8n-nodes-linkedin-jobs-scraper
+# n8n-nodes-linkedin-scraper
 
 This is an n8n community node. It lets you search for job listings on LinkedIn in your n8n workflows.
 
@@ -15,7 +15,7 @@ This is an n8n community node. It lets you search for job listings on LinkedIn i
 
 Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes/installation/) in the n8n community nodes documentation.
 
-After installation, you'll be able to add the **LinkedIn Jobs Scraper** node to your workflows.
+After installation, you'll be able to add the **LinkedIn Scraper** node to your workflows.
 
 ## Operations
 
