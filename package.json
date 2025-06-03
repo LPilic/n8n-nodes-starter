@@ -1,19 +1,19 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-linkedin-scraper",
   "version": "0.1.0",
-  "description": "",
+  "description": "n8n node that scrapes LinkedIn job results using linkedin-jobs-scraper",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/placeholder/n8n-nodes-linkedin-scraper",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Community",
+    "email": "community@example.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/placeholder/n8n-nodes-linkedin-scraper.git"
   },
   "engines": {
     "node": ">=20.15"
@@ -38,7 +38,8 @@
     ],
     "nodes": [
       "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/HttpBin/HttpBin.node.js",
+      "dist/nodes/LinkedinScraper/LinkedinScraper.node.js"
     ]
   },
   "devDependencies": {
@@ -51,5 +52,8 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "linkedin-jobs-scraper": "^18.0.1"
   }
 }
